@@ -1,0 +1,228 @@
+body {
+  margin: auto;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabin-bold {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-37 {
+  font-size: 37px;
+}
+hr{
+  opacity: 100;
+}
+#logo {
+  font-size: 27px;
+}
+
+.gray {
+  background-color: #373a3c;
+}
+
+#navbarNav {
+  justify-content: right;
+  font-size: 20px;
+}
+
+#container-nav {
+  padding-inline: 7.5vw;
+}
+
+#hero-section {
+  margin-inline: auto;
+  height: 50vh;
+}
+#img-hero {
+  height: 50vh;
+  background-image: url("../img/principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#text-hero {
+  height: 50vh;
+}
+#title-hero {
+  height: 65%;
+  width: 100%;
+  font-size: 40pt;
+}
+
+#subtitle-h {
+  height: 35%;
+  width: 100%;
+  font-size: 20pt;
+}
+
+#carousel {
+  width: 84vw;
+  padding-block: 10vh;
+  margin-inline: auto;
+}
+
+#receta {
+  font-size: 20pt;
+}
+
+.recetas-o-title {
+  font-size: 40pt;
+}
+
+.card-body h5 {
+  font-size: 23pt;
+}
+
+#pre-final {
+  height: 534px;
+  background-color: #dc3545;
+}
+
+#h1-pre {
+  font-size: 40pt;
+}
+#h3-pre {
+  font-size: 30pt;
+}
+
+#container-pre {
+  padding-top: 200px;
+}
+
+/* media query <768px */
+@media screen and (max-width: 767px) {
+  /* For mobile phones: */
+  #title-hero h1 {
+    font-size: 25pt;
+  }
+  #subtitle-h {
+    font-size: 16pt;
+  }
+
+  #receta {
+    font-size: 16pt;
+  }
+  .recetas-o-title {
+    font-size: 25pt;
+  }
+
+  .card-body h5 {
+    font-size: 17pt;
+  }
+
+  #h1-pre {
+    font-size: 30pt;
+  }
+  #h3-pre {
+    font-size: 20pt;
+  }
+}
+/*
+.bt-carousel{
+  background-color: #000000;
+}
+.carousel-item {
+  margin-inline: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.carousel-item.active{
+  margin-inline: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.carousel-item * {
+  width: 22%;
+  height: auto;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+} */
+
+/*
+#container-hero{
+  width: 100vw;
+  height:80vh;
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 7.5vw;
+  text-align: -webkit-right;
+  margin-bottom: 0;
+} 
+
+#text-hero{  
+  width: 50vw;
+  height: 20vh;
+} 
+
+#text-hero h5{
+  font-size: 70px;
+}
+
+#text-hero p{
+  font-size: 16px;
+} 
+
+ #link-trabajos{
+  margin-right: 3vw;
+}
+
+#acerca-de-mi{
+  padding-inline: 7.5vW;
+}
+
+#acerca-de-mi h1{
+  font-size: 50px;
+}
+.title-icon{
+  margin-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card img{
+  height: 232px;
+}
+
+#mis-trabajos{
+  background-color: #17A2B8;
+}
+
+#contactame{
+  padding-block: 5vh;
+}
+
+#container-form{
+  padding-inline: 7.5vw;
+}
+
+#btn-form{
+  background-color: #17A2B8;
+}
+footer{
+  background-color: #0F0F0F;
+}
+
+
+@media screen and (max-width: 992px) {
+  #text-hero h5{
+    font-size: 50px;
+  }
+  #acerca-de-mi h1{
+    font-size: 40px;
+  }
+} */
